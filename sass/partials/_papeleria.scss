@@ -1,0 +1,24 @@
+@use "./variables.scss";
+
+.grid-container {
+    @include variables.grid-container-productos;
+        .grid-item {
+            @include variables.grid-item-productos;
+            .texto-item {
+                text-transform: uppercase;
+                padding: 3px 0;
+            }
+            .img-stickers {
+                background: url(../medios/stickers.jpg) no-repeat;
+                @include variables.productos;
+            }
+            .img-tarjetas {
+                background: url(../medios/tarjetas.jpg) no-repeat;
+                @include variables.productos;
+            }
+             .img-vinilo {
+                background: url(../medios/vinilo.jpg) no-repeat;
+                @include variables.productos;
+            }
+        }    
+    }

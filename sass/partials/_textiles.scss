@@ -1,0 +1,24 @@
+@use "./variables.scss";
+
+.grid-container {
+    @include variables.grid-container-productos;
+        .grid-item {
+            @include variables.grid-item-productos;
+            .texto-item {
+                text-transform: uppercase;
+                padding: 3px 0;
+            }
+            .img-remeras {
+                background: url(../medios/remeras.jpg) no-repeat;
+                @include variables.productos;
+            }
+            .img-canguros {
+                background: url(../medios/canguros.jpg) no-repeat;
+                @include variables.productos;
+            }
+             .img-remeracanguro {
+                background: url(../medios/remeracanguro.jpg) no-repeat;
+                @include variables.productos;
+            }
+        }    
+    }        

@@ -1,0 +1,12 @@
+@use "./variables.scss";
+
+
+/*arreglar*/
+
+
+.div-form {
+    padding: 1% 10%;
+    .my-btn {
+        @include variables.boton;
+    }
+}

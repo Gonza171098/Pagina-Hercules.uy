@@ -1,0 +1,55 @@
+@use "./variables.scss";
+@use "../partials/mediaqueriesmobile";
+
+
+
+
+
+.grid-container{
+    @include variables.grid-container-productos;
+        .grid-item {
+            @include variables.grid-item-productos;
+            .texto-item {
+                text-transform: uppercase;
+                padding: 3px 0;
+            }
+            .img-stickers {
+                background: url(../medios/stickers.jpg) no-repeat;
+                @include variables.productos;
+            }
+            .img-chapitas {
+                background: url(../medios/chapitas.jpg) no-repeat;
+                @include variables.productos;
+            }
+            .img-tarjetas {
+                background: url(../medios/tarjetas.jpg) no-repeat;
+                @include variables.productos;
+            }
+            .img-tablas {
+                background: url(../medios/tablas.jpg) no-repeat;
+                @include variables.productos;
+            }
+            .img-vidrio {
+                background: url(../medios/vidrio.jpg) no-repeat;
+                @include variables.productos;
+            }
+            .img-mousepad {
+                background: url(../medios/mousepad.jpg) no-repeat;
+                @include variables.productos;
+            }
+            .img-remeras {
+                background: url(../medios/remeras.jpg) no-repeat;
+                @include variables.productos;
+            }
+            .img-magicas {
+                background: url(../medios/magicas.jpg) no-repeat;
+                @include variables.productos;
+            }
+            .img-canguros {
+                background: url(../medios/canguros.jpg) no-repeat;
+                @include variables.productos;
+            }
+        }
+    }
+
+@include mediaqueriesmobile.celular;

@@ -1,0 +1,63 @@
+@mixin celular {
+
+    @media (max-width: 720px) {
+
+        header {
+            .mensajesuperior {
+                font-size: 1.3rem;
+            }
+            nav{
+                padding: 1%;
+                margin: 0;
+                .container-fluid {
+                    background-color: white;
+                    padding: 2%;
+                }
+            }    
+
+
+        }
+        
+
+        main {
+            .tituloprincipal {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1.6rem;
+                line-height: 2rem;
+                text-align:justify;
+                margin: 10px 30px;
+            }
+        }
+        
+
+
+        .grid-container{
+            grid-template-columns: repeat(1, 1fr);
+            margin: 0;
+            .grid-item {
+                height: 200px;
+                width: 350px;
+                margin: 15px 0;
+            }
+        }   
+
+    
+        footer {
+            .logo-footer {
+            width: 50%;
+            margin: 5% 0;
+            }
+            .iconos-footer {
+                img {
+                    width: 7%;
+                    margin-bottom: 5%;
+                    margin-inline: 3%;
+                }
+            }
+        }
+
+
+    }
+}

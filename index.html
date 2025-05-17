@@ -6,9 +6,10 @@
     <title>Inicio - Hércules UY</title> <!-- nombre de pestaña -->
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css"> <!-- Enlace a hoja de estilo -->
+    <link rel="stylesheet" href="./css/estilos.css"> <!-- Enlace a hoja de estilo -->
     <!-- fuente de Adobe -->
     <link rel="stylesheet" href="https://use.typekit.net/amq7lsz.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!--AOS-->
 
 
 </head>
@@ -16,7 +17,7 @@
 
 
     <header> <!-- encabezado -->
-        <div class="mensajesuperior">ENVÍOS GRATIS EN COMPRAS MAYORES A $3.900</div>
+      <div class="mensajesuperior">ENVÍOS GRATIS EN COMPRAS MAYORES A $3.900</div>
         <nav class="navbar navbar-expand-lg my-navbar">
             <div class="container-fluid">
               <a class="navbar-brand" href=".#" ><img src="./medios/logo-nav.png" alt="Logo de Hércules"></a>
@@ -83,54 +84,54 @@
 
         <h1 class="tituloprincipal"> ¡Bienvenidos a Hércules! </h1> 
    
-        <p class="bienvenida"> Acá convertimos la creatividad en algo único.
+        <p> Acá convertimos la creatividad en algo único.
             
             En Hércules, nos especializamos en la creación de artículos personalizados que capturan tus momentos más especiales y los convierten en productos únicos. Desde tazas, remeras y accesorios, hasta regalos ideales para cualquier ocasión. ¡Lo que imagines, lo hacemos realidad!</p>
 
-    <div class="grid-container-index">
+    <div class="grid-container">
 
-        <div class="grid-item-index">
-            <div class="img-stickers"></div>
+        <div class="grid-item" data-aos="fade-up" data-aos-duration="300">
+            <div class="img-stickers" alt="imagen Stickers"></div>
             <div class="texto-item">Stickers</div>
         </div>
 
-        <div class="grid-item-index">
-            <div class="img-chapitas"></div>
+        <div class="grid-item" data-aos="fade-up" data-aos-duration="300">
+            <div class="img-chapitas" alt="imagen Chapitas"></div>
             <div class="texto-item">Chapitas</div>
         </div>
 
-        <div class="grid-item-index">
-            <div class="img-tarjetas"></div>
+        <div class="grid-item" data-aos="fade-up" data-aos-duration="300">
+            <div class="img-tarjetas" alt="imagen tarjetas"></div>
             <div class="texto-item">Tarjetas</div>
         </div>
 
-        <div class="grid-item-index">
-            <div class="img-tablas"></div>
+        <div class="grid-item" data-aos="fade-up" data-aos-duration="300">
+            <div class="img-tablas" alt="imagen Tablas"></div>
             <div class="texto-item">Tablas</div>
         </div>
 
-        <div class="grid-item-index">
-            <div class="img-vidrio"></div>
+        <div class="grid-item" data-aos="fade-up" data-aos-duration="300">
+            <div class="img-vidrio" alt="imagen Vidrio"></div>
             <div class="texto-item">Vidrio</div>
         </div>
 
-        <div class="grid-item-index">
-            <div class="img-mousepad"></div>
+        <div class="grid-item" data-aos="fade-up" data-aos-duration="300">
+            <div class="img-mousepad" alt="imagen Mousepad"></div>
             <div class="texto-item">Mousepad</div>
         </div>
 
-        <div class="grid-item-index">
-            <div class="img-remeras"></div>
+        <div class="grid-item" data-aos="fade-up" data-aos-duration="300">
+            <div class="img-remeras" alt="imagen remeras"></div>
             <div class="texto-item">Remeras</div>
         </div>
 
-        <div class="grid-item-index">
-            <div class="img-magicas"></div>
+        <div class="grid-item" data-aos="fade-up" data-aos-duration="300">
+            <div class="img-magicas" alt="imagen tazas magicas"></div>
             <div class="texto-item">Tazas Mágicas</div>
         </div>
 
-        <div class="grid-item-index">
-            <div class="img-canguros"></div>
+        <div class="grid-item" data-aos="fade-up" data-aos-duration="300">
+            <div class="img-canguros" alt="imagen Canguros"></div>
             <div class="texto-item">Canguros</div>
         </div>
     </div>
@@ -148,5 +149,7 @@
             <img src="./medios/logo-whatsapp.png" alt="whatsapp">
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- AOS -->
+    <script>AOS.init();</script> <!-- AOS -->
+  </body>
 </html>

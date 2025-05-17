@@ -1,0 +1,537 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* definir columans en fracciones*/
+  justify-items: center; /* alineacion horizontal*/
+  justify-content: center; /* alinea el contenedor entero de la grilla horizontalmente */
+  align-content: center; /* alinea el contenedor vericalmente */
+  font-size: 20px;
+  margin: 15px;
+  width: 100%;
+  padding: 0 30%;
+}
+.grid-container .grid-item {
+  margin: 15px 20px;
+  padding: 5px;
+  background-color: white;
+  height: 280px;
+  width: 500px;
+  text-align: center;
+  align-content: center;
+  border-radius: 20px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.grid-container .grid-item:hover {
+  scale: 102%;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+}
+.grid-container .grid-item .texto-item {
+  text-transform: uppercase;
+  padding: 3px 0;
+}
+.grid-container .grid-item .img-stickers {
+  background: url(../medios/stickers.jpg) no-repeat;
+  display: flex;
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  background-size: contain;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px 15px 0 0;
+}
+.grid-container .grid-item .img-chapitas {
+  background: url(../medios/chapitas.jpg) no-repeat;
+  display: flex;
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  background-size: contain;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px 15px 0 0;
+}
+.grid-container .grid-item .img-tarjetas {
+  background: url(../medios/tarjetas.jpg) no-repeat;
+  display: flex;
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  background-size: contain;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px 15px 0 0;
+}
+.grid-container .grid-item .img-tablas {
+  background: url(../medios/tablas.jpg) no-repeat;
+  display: flex;
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  background-size: contain;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px 15px 0 0;
+}
+.grid-container .grid-item .img-vidrio {
+  background: url(../medios/vidrio.jpg) no-repeat;
+  display: flex;
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  background-size: contain;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px 15px 0 0;
+}
+.grid-container .grid-item .img-mousepad {
+  background: url(../medios/mousepad.jpg) no-repeat;
+  display: flex;
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  background-size: contain;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px 15px 0 0;
+}
+.grid-container .grid-item .img-remeras {
+  background: url(../medios/remeras.jpg) no-repeat;
+  display: flex;
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  background-size: contain;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px 15px 0 0;
+}
+.grid-container .grid-item .img-magicas {
+  background: url(../medios/magicas.jpg) no-repeat;
+  display: flex;
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  background-size: contain;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px 15px 0 0;
+}
+.grid-container .grid-item .img-canguros {
+  background: url(../medios/canguros.jpg) no-repeat;
+  display: flex;
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  background-size: contain;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px 15px 0 0;
+}
+
+@media (max-width: 720px) {
+  header .mensajesuperior {
+    font-size: 1.3rem;
+  }
+  header nav {
+    padding: 1%;
+    margin: 0;
+  }
+  header nav .container-fluid {
+    background-color: white;
+    padding: 2%;
+  }
+  main .tituloprincipal {
+    font-size: 2rem;
+  }
+  main p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: justify;
+    margin: 10px 30px;
+  }
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+  }
+  .grid-container .grid-item {
+    height: 200px;
+    width: 350px;
+    margin: 15px 0;
+  }
+  footer .logo-footer {
+    width: 50%;
+    margin: 5% 0;
+  }
+  footer .iconos-footer img {
+    width: 7%;
+    margin-bottom: 5%;
+    margin-inline: 3%;
+  }
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* definir columans en fracciones*/
+  justify-items: center; /* alineacion horizontal*/
+  justify-content: center; /* alinea el contenedor entero de la grilla horizontalmente */
+  align-content: center; /* alinea el contenedor vericalmente */
+  font-size: 20px;
+  margin: 15px;
+  width: 100%;
+  padding: 0 30%;
+}
+.grid-container .grid-item {
+  margin: 15px 20px;
+  padding: 5px;
+  background-color: white;
+  height: 280px;
+  width: 500px;
+  text-align: center;
+  align-content: center;
+  border-radius: 20px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.grid-container .grid-item:hover {
+  scale: 102%;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+}
+.grid-container .grid-item .texto-item {
+  text-transform: uppercase;
+  padding: 3px 0;
+}
+.grid-container .grid-item .img-stickers {
+  background: url(../medios/stickers.jpg) no-repeat;
+  display: flex;
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  background-size: contain;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px 15px 0 0;
+}
+.grid-container .grid-item .img-tarjetas {
+  background: url(../medios/tarjetas.jpg) no-repeat;
+  display: flex;
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  background-size: contain;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px 15px 0 0;
+}
+.grid-container .grid-item .img-vinilo {
+  background: url(../medios/vinilo.jpg) no-repeat;
+  display: flex;
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  background-size: contain;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px 15px 0 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* definir columans en fracciones*/
+  justify-items: center; /* alineacion horizontal*/
+  justify-content: center; /* alinea el contenedor entero de la grilla horizontalmente */
+  align-content: center; /* alinea el contenedor vericalmente */
+  font-size: 20px;
+  margin: 15px;
+  width: 100%;
+  padding: 0 30%;
+}
+.grid-container .grid-item {
+  margin: 15px 20px;
+  padding: 5px;
+  background-color: white;
+  height: 280px;
+  width: 500px;
+  text-align: center;
+  align-content: center;
+  border-radius: 20px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.grid-container .grid-item:hover {
+  scale: 102%;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+}
+.grid-container .grid-item .texto-item {
+  text-transform: uppercase;
+  padding: 3px 0;
+}
+.grid-container .grid-item .img-remeras {
+  background: url(../medios/remeras.jpg) no-repeat;
+  display: flex;
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  background-size: contain;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px 15px 0 0;
+}
+.grid-container .grid-item .img-canguros {
+  background: url(../medios/canguros.jpg) no-repeat;
+  display: flex;
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  background-size: contain;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px 15px 0 0;
+}
+.grid-container .grid-item .img-remeracanguro {
+  background: url(../medios/remeracanguro.jpg) no-repeat;
+  display: flex;
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  background-size: contain;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px 15px 0 0;
+}
+
+/*arreglar*/
+.div-form {
+  padding: 1% 10%;
+}
+.div-form .my-btn {
+  border-color: #01A0C6;
+  background-color: white;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.div-form .my-btn:hover {
+  background-color: #01A0C6;
+  color: white;
+}
+.div-form .my-btn:active {
+  background-color: white !important;
+  color: #01A0C6 !important;
+}
+.div-form .my-btn::placeholder {
+  color: rgb(171, 171, 171);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(248, 248, 248);
+  font-family: "aller", sans-serif;
+}
+body h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  height: 8vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
+  filter: blur;
+  top: 31px;
+  position: fixed;
+  z-index: 999;
+}
+header .mensajesuperior {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #01A0C6;
+  backdrop-filter: blur(4px);
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0;
+  z-index: 1000;
+  animation: mensajeanimado 2s infinite;
+}
+@keyframes mensajeanimado {
+  0% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
+header .navbar {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+  height: 8vh;
+  background-color: white;
+}
+header .navbar .container-fluid .navbar-brand img {
+  width: 12vh;
+  margin: 0 30px;
+}
+header .navbar .container-fluid ul {
+  /*text-transform: uppercase;*/
+  font-size: 1.5rem;
+  list-style: none;
+  justify-content: center;
+}
+header .navbar .container-fluid ul li .dropdown-item {
+  width: auto;
+}
+header .navbar .container-fluid ul li a {
+  margin: 5px;
+  font-weight: 400;
+  color: #01A0C6;
+  padding: 7px 15px;
+  background-color: white;
+}
+header .navbar .container-fluid ul li a:hover {
+  border-bottom: #01A0C6 solid 3px;
+}
+header .navbar .container-fluid ul li a.active {
+  color: black;
+  border-bottom: #01A0C6 solid 3px;
+}
+header .navbar .container-fluid .my-btn {
+  border-color: #01A0C6;
+  background-color: white;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+header .navbar .container-fluid .my-btn:hover {
+  background-color: #01A0C6;
+  color: white;
+}
+header .navbar .container-fluid .my-btn:active {
+  background-color: white !important;
+  color: #01A0C6 !important;
+}
+header .navbar .container-fluid .my-btn::placeholder {
+  color: rgb(171, 171, 171);
+}
+
+main p {
+  color: #01A0C6;
+  font-size: 2.5rem;
+  margin: 2% 18%;
+  text-align: center;
+  line-height: 30px;
+}
+main .tituloprincipal {
+  margin: 3rem;
+  color: #01A0C6;
+  font-weight: 500;
+}
+main .titulosecundario {
+  font-size: 2rem;
+  margin: 1.25rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+#carouselExampleRide {
+  margin-top: 100px;
+}
+
+footer {
+  background-color: #01A0C6;
+  text-align: center;
+  border-top: white solid 5px;
+}
+footer .logo-footer {
+  width: 15%;
+  margin-top: 1%;
+}
+footer .texto-footer {
+  font-size: 3rem;
+  color: white;
+  margin: 1%;
+}
+footer .iconos-footer img {
+  width: 2%;
+  margin-bottom: 2%;
+  margin-inline: 1%;
+}
+
+@media (max-width: 720px) {
+  header .mensajesuperior {
+    font-size: 1.3rem;
+  }
+  header nav {
+    padding: 1%;
+    margin: 0;
+  }
+  header nav .container-fluid {
+    background-color: white;
+    padding: 2%;
+  }
+  main .tituloprincipal {
+    font-size: 2rem;
+  }
+  main p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: justify;
+    margin: 10px 30px;
+  }
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+  }
+  .grid-container .grid-item {
+    height: 200px;
+    width: 350px;
+    margin: 15px 0;
+  }
+  footer .logo-footer {
+    width: 50%;
+    margin: 5% 0;
+  }
+  footer .iconos-footer img {
+    width: 7%;
+    margin-bottom: 5%;
+    margin-inline: 3%;
+  }
+}
+/* form textarea.form-control::placeholder {
+     color: rgb(171, 171, 171);
+ }
+     PARA AGREGAR EN OTRA HOJA DE ESTILOS GENERICA O CONTACTO Y SACAR DE my-btn */
+
+/*# sourceMappingURL=estilos.css.map */
