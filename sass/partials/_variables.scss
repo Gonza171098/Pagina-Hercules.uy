@@ -42,9 +42,9 @@ $aller: "aller", sans-serif;
     justify-content: center; /* alinea el contenedor entero de la grilla horizontalmente */
     align-content: center; /* alinea el contenedor vericalmente */
     font-size: 20px;
-    margin: 15px;
+    margin: 0;
     width: 100%;
-    padding: 0 30%;
+    padding: 0 10%;
 }
 
 @mixin grid-item-productos {
