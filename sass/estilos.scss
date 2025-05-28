@@ -4,7 +4,9 @@
 @use "./partials/textiles";
 @use "./partials/conocenos";
 @use "./partials/contacto";
+@use "./partials/mediaqueriestablet";
 @use "./partials/mediaqueriesmobile";
+
 
 
 
@@ -159,8 +161,9 @@ footer  {
     }
 }
 
-
+@include mediaqueriestablet.tablet;
 @include mediaqueriesmobile.celular;
+
            /* form textarea.form-control::placeholder {
                 color: rgb(171, 171, 171);
             }

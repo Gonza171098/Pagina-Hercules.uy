@@ -1,5 +1,7 @@
 @use "./variables.scss";
+@use "../partials/mediaqueriestablet";
 @use "../partials/mediaqueriesmobile";
+
 
 
 
@@ -52,4 +54,5 @@
         }
     }
 
+@include mediaqueriestablet.tablet;
 @include mediaqueriesmobile.celular;
