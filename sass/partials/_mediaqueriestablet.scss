@@ -1,6 +1,6 @@
 @mixin tablet {
 
-    @media (min-width: 578px) and (max-width: 1200px) {
+    @media (min-width: 578px) and (max-width: 950px) {
 
         header {
             .mensajesuperior {
@@ -34,11 +34,11 @@
 
 
         .grid-container{
-            grid-template-columns: repeat(2, 2fr);
+            grid-template-columns: repeat(2, 1fr);
             margin: 0;
             .grid-item {
-                height: 200px;
-                width: 350px;
+                height: 150px;
+                width: 260px;
                 margin: 15px 5px;
             }
         }   
@@ -58,6 +58,30 @@
             }
         }
 
+    }
+
+    @media (min-width: 951px) and (max-width: 1350px) {
+        main {
+            .tituloprincipal {
+                font-size: 3rem;
+            }
+            p {
+                font-size: 1.6rem;
+                line-height: 2rem;
+                text-align:justify;
+                margin: 10px 30px;
+            }
+        }
+
+        .grid-container{
+            grid-template-columns: repeat(3, 1fr);
+            margin: 0;
+            .grid-item {
+                height: 170px;
+                width: 300px;
+                margin: 15px 5px;
+            }
+        }   
 
     }
 }

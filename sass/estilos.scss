@@ -143,6 +143,7 @@ footer  {
     background-color: variables.$color-principal;
     text-align: center;
     border-top: white solid 5px;
+    width: 100%;
     .logo-footer {
         width: 15%;
         margin-top: 1%;
@@ -161,10 +162,6 @@ footer  {
     }
 }
 
+
 @include mediaqueriestablet.tablet;
 @include mediaqueriesmobile.celular;
-
-           /* form textarea.form-control::placeholder {
-                color: rgb(171, 171, 171);
-            }
-                PARA AGREGAR EN OTRA HOJA DE ESTILOS GENERICA O CONTACTO Y SACAR DE my-btn */

@@ -5,16 +5,16 @@
   justify-content: center; /* alinea el contenedor entero de la grilla horizontalmente */
   align-content: center; /* alinea el contenedor vericalmente */
   font-size: 20px;
-  margin: 0;
+  margin: 0px;
   width: 100%;
-  padding: 0 10%;
+  padding: 0 30%;
 }
 .grid-container .grid-item {
   margin: 15px 20px;
   padding: 5px;
   background-color: white;
-  height: 280px;
-  width: 500px;
+  height: 225px;
+  width: 400px;
   text-align: center;
   align-content: center;
   border-radius: 20px;
@@ -137,7 +137,7 @@
   border-radius: 15px 15px 0 0;
 }
 
-@media (min-width: 578px) and (max-width: 1200px) {
+@media (min-width: 578px) and (max-width: 950px) {
   header .mensajesuperior {
     font-size: 1.8rem;
   }
@@ -159,12 +159,12 @@
     margin: 10px 30px;
   }
   .grid-container {
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
     margin: 0;
   }
   .grid-container .grid-item {
-    height: 200px;
-    width: 350px;
+    height: 150px;
+    width: 260px;
     margin: 15px 5px;
   }
   footer .logo-footer {
@@ -175,6 +175,26 @@
     width: 5%;
     margin-bottom: 5%;
     margin-inline: 3%;
+  }
+}
+@media (min-width: 951px) and (max-width: 1350px) {
+  main .tituloprincipal {
+    font-size: 3rem;
+  }
+  main p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: justify;
+    margin: 10px 30px;
+  }
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+  }
+  .grid-container .grid-item {
+    height: 170px;
+    width: 300px;
+    margin: 15px 5px;
   }
 }
 @media (max-width: 577px) {
@@ -224,16 +244,16 @@
   justify-content: center; /* alinea el contenedor entero de la grilla horizontalmente */
   align-content: center; /* alinea el contenedor vericalmente */
   font-size: 20px;
-  margin: 0;
+  margin: 0px;
   width: 100%;
-  padding: 0 10%;
+  padding: 0 30%;
 }
 .grid-container .grid-item {
   margin: 15px 20px;
   padding: 5px;
   background-color: white;
-  height: 280px;
-  width: 500px;
+  height: 225px;
+  width: 400px;
   text-align: center;
   align-content: center;
   border-radius: 20px;
@@ -291,16 +311,16 @@
   justify-content: center; /* alinea el contenedor entero de la grilla horizontalmente */
   align-content: center; /* alinea el contenedor vericalmente */
   font-size: 20px;
-  margin: 0;
+  margin: 0px;
   width: 100%;
-  padding: 0 10%;
+  padding: 0 30%;
 }
 .grid-container .grid-item {
   margin: 15px 20px;
   padding: 5px;
   background-color: white;
-  height: 280px;
-  width: 500px;
+  height: 225px;
+  width: 400px;
   text-align: center;
   align-content: center;
   border-radius: 20px;
@@ -351,7 +371,6 @@
   border-radius: 15px 15px 0 0;
 }
 
-/*arreglar*/
 .div-form {
   padding: 1% 10%;
 }
@@ -513,6 +532,7 @@ footer {
   background-color: #01A0C6;
   text-align: center;
   border-top: white solid 5px;
+  width: 100%;
 }
 footer .logo-footer {
   width: 15%;
@@ -529,7 +549,7 @@ footer .iconos-footer img {
   margin-inline: 1%;
 }
 
-@media (min-width: 578px) and (max-width: 1200px) {
+@media (min-width: 578px) and (max-width: 950px) {
   header .mensajesuperior {
     font-size: 1.8rem;
   }
@@ -551,12 +571,12 @@ footer .iconos-footer img {
     margin: 10px 30px;
   }
   .grid-container {
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
     margin: 0;
   }
   .grid-container .grid-item {
-    height: 200px;
-    width: 350px;
+    height: 150px;
+    width: 260px;
     margin: 15px 5px;
   }
   footer .logo-footer {
@@ -567,6 +587,26 @@ footer .iconos-footer img {
     width: 5%;
     margin-bottom: 5%;
     margin-inline: 3%;
+  }
+}
+@media (min-width: 951px) and (max-width: 1350px) {
+  main .tituloprincipal {
+    font-size: 3rem;
+  }
+  main p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: justify;
+    margin: 10px 30px;
+  }
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+  }
+  .grid-container .grid-item {
+    height: 170px;
+    width: 300px;
+    margin: 15px 5px;
   }
 }
 @media (max-width: 577px) {
@@ -609,9 +649,5 @@ footer .iconos-footer img {
     margin-inline: 3%;
   }
 }
-/* form textarea.form-control::placeholder {
-     color: rgb(171, 171, 171);
- }
-     PARA AGREGAR EN OTRA HOJA DE ESTILOS GENERICA O CONTACTO Y SACAR DE my-btn */
 
 /*# sourceMappingURL=estilos.css.map */

@@ -42,17 +42,17 @@ $aller: "aller", sans-serif;
     justify-content: center; /* alinea el contenedor entero de la grilla horizontalmente */
     align-content: center; /* alinea el contenedor vericalmente */
     font-size: 20px;
-    margin: 0;
+    margin: 0px;
     width: 100%;
-    padding: 0 10%;
+    padding: 0 30%;
 }
 
 @mixin grid-item-productos {
     margin: 15px 20px;
     padding: 5px;
     background-color: white;
-    height: 280px;
-    width: 500px;
+    height: 225px;
+    width: 400px;
     text-align: center;
     align-content: center;
     border-radius: 20px;
